@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+body{
+    font-family:  'Hind Madurai', sans-serif;
+}
+
+.inner{
+    width: 1610px;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2CEDA;
+}
+.logo{
+    margin-left: 240px;
+}
+.header_list{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 45px;
+    justify-content: space-between;
+    color: #150101;
+}
+.header_item{
+    margin-left: 40px;
+    list-style-type: none;
+    color: #150101;
+}
+.header_item :hover {
+    font-size: 19px;
+    color: #D23166;
+}
+.header_item a{
+    text-decoration: none;
+}
+.header_btn{
+    width: 165px;
+    height: 65px;
+    margin-top: 15px;
+    align-items: center;
+    margin-right: 150px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #D23166;
+}
+
+.hero{
+    width: 1610px;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 180px;
+    /* padding: 100px 150px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2CEDA;
+}
+
+.hero__info h2{
+    font-size: 54px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 15px;
+}
+.icecream{
+    color: #D23166;
+}
+.p2{
+    width: 723px;
+    height: 78px;
+    font-size: 27px;
+    color: #464242;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 35px;
+}
+.hero__info button{
+    width: 165px;
+    height: 50px;
+    margin-top: 105px;
+    background-color: #D23166;
+    color: #fff;
+    border-radius: 5px;
+}
+/* .img{
+    display: block;
+    justify-content: center;
+}
+.img2{
+    margin-right: -400px;
+} */
+
+.ycs{
+    width: 1610px;
+    height: 200px;
+}
+.ycs__list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 20px 150px;
+}
+.ycs__item{
+    width: 250px;
+    height: 200px;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+.ycs__item img{
+    width: 51px;
+    height: 51px;
+}
+.ycs__item h3{
+    font-size: 24px;
+    font-weight: 100px;
+    margin-top: 12px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.ycs__item p{
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 12px;
+}
+
+.sugar{
+    width: 1610px;
+    height: 580px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #F2CEDA;
+    padding: 20px 150px;
+}
+.brown{
+    margin-top: 141px;
+    margin-left: 20px;
+}
+.brown h2{
+    font-size: 44px;
+    color: #150101;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.brown p{
+    width: 442px;
+    color:  #150101;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 16px;
+}
+.brown button{
+    width: 160px;
+    height: 50px;
+    background-color: #D23166;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 35px;
+    font-size: 19px;
+}
+
+.product{
+    width: 1610px;
+    height: 2180px;
+    padding-top: 135px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    /* padding: 100px 150px 150px 20px; */
+}
+.product h2{
+    font-size: 54px;
+    font-weight: 600px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.product__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-top: 70px;
+}
+.product__item{
+    list-style-type: none;
+    color: #150101;
+    font-size: 22px;
+    
+}
+.product__item a{
+    text-decoration: none;
+    color: #150101;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.product__item :hover {
+    font-size: 21px;
+    color: black;
+    border-bottom: 1px solid #D23166;
+    font-weight: bold;
+}
+.chance__item{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.chance__item2 h3 {
+    color: #000;
+    font-size: 26px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-family:   'Hind Madurai', sans-serif;
+}
+.chance__item2 p{
+    color: #464242;
+    font-size: 22px;
+    width: 454px;
+    height: 67px;
+    margin-top: 15px;
+
+}
+.price{
+    font-size: 28px;
+    color: #150101;
+    margin-top: 40px;   
+}
+.chance__item button{
+    margin-top: 10px;
+    margin-right: 350px;
+    width: 169px;
+    height: 50px;
+    background-color: #D23166;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+}
+.chance__item__last{
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 150px;
+    /* border: 1px solid black; */
+}
+.item__last{
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.item__last img{
+    width: 75px;
+    height: 75px;
+}
+.chance__item__last{
+    display: block;
+    text-align: left;
+}
+.chance__item__last p{
+    width: 330px;
+    font-size: 22px;
+    margin-left: 10px;
+    color: #464242;
+}
+.item__img{
+    width: 350px;    
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.img_lastt{
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.simple__way{
+    width: 1610px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px  150px;
+    background-color: #F2CEDA;
+}
+.simple__way img{
+    height: 700px;
+}
+.order h2{
+    font-size: 54px;
+    color: #150101;
+    font-family: 'Hind Madurai', sans-serif ;
+    font-weight: 400px;
+}
+.order p{
+    font-size: 22px;
+    color:#464242 ;
+    width: 600px;
+    margin-top: 10px;
+}
+.tanlov{
+    display: block;
+    justify-self: start;
+}
+.tanlov2{
+    width: 200px;
+    font-size: 24px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.tanlov2 img{
+    width: 35px;
+    height: 35px;
+}
+.apps img{
+    width: 300px;
+    height: 100px;
+}
+
+.question{
+    width: 1610px;
+    height: 750px;   
+    padding: 250px 0;
+    font-size: 44px;
+    text-align: center;
+}
+.input input{
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.input button{
+    width: 250px;
+    height: 100px;
+    background-color: #D23166;
+    margin-bottom: 15px;
+    margin-left:5px;
+    border: none;
+}
